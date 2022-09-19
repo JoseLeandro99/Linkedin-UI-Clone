@@ -9,13 +9,28 @@
 /* Begin PBXBuildFile section */
 		9C40905828D2A0EA00CDCF74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40905728D2A0EA00CDCF74 /* AppDelegate.swift */; };
 		9C40905A28D2A0EA00CDCF74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40905928D2A0EA00CDCF74 /* SceneDelegate.swift */; };
-		9C40905C28D2A0EA00CDCF74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40905B28D2A0EA00CDCF74 /* ViewController.swift */; };
-		9C40905F28D2A0EA00CDCF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C40905D28D2A0EA00CDCF74 /* Main.storyboard */; };
 		9C40906128D2A0EC00CDCF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C40906028D2A0EC00CDCF74 /* Assets.xcassets */; };
 		9C40906428D2A0EC00CDCF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C40906228D2A0EC00CDCF74 /* LaunchScreen.storyboard */; };
 		9C40906F28D2A0EC00CDCF74 /* LinkedinUICloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40906E28D2A0EC00CDCF74 /* LinkedinUICloneTests.swift */; };
 		9C40907928D2A0EC00CDCF74 /* LinkedinUICloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40907828D2A0EC00CDCF74 /* LinkedinUICloneUITests.swift */; };
 		9C40907B28D2A0EC00CDCF74 /* LinkedinUICloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40907A28D2A0EC00CDCF74 /* LinkedinUICloneUITestsLaunchTests.swift */; };
+		9C40908C28D2A14200CDCF74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40908B28D2A14200CDCF74 /* HomeViewController.swift */; };
+		9C40908E28D2A25200CDCF74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40908D28D2A25200CDCF74 /* HomeView.swift */; };
+		9C40909428D2A33000CDCF74 /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909328D2A33000CDCF74 /* JobsViewController.swift */; };
+		9C40909628D2A35E00CDCF74 /* NotificiationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909528D2A35E00CDCF74 /* NotificiationsViewController.swift */; };
+		9C40909828D2A37B00CDCF74 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909728D2A37B00CDCF74 /* PostViewController.swift */; };
+		9C40909A28D2A39700CDCF74 /* MyNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909928D2A39700CDCF74 /* MyNetworkViewController.swift */; };
+		9C40909C28D2A3C000CDCF74 /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909B28D2A3C000CDCF74 /* JobsView.swift */; };
+		9C40909E28D2A3D900CDCF74 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909D28D2A3D900CDCF74 /* NotificationsView.swift */; };
+		9C4090A028D2A3F400CDCF74 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C40909F28D2A3F400CDCF74 /* PostView.swift */; };
+		9C4090A228D2A41500CDCF74 /* MyNetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4090A128D2A41500CDCF74 /* MyNetworkView.swift */; };
+		9C4090A428D2A4B700CDCF74 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4090A328D2A4B700CDCF74 /* MainTabBarController.swift */; };
+		9C4090AA28D2ADE900CDCF74 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4090A928D2ADE900CDCF74 /* NavigationBar.swift */; };
+		9C4090AC28D2B4FD00CDCF74 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4090AB28D2B4FD00CDCF74 /* FeedTableViewCell.swift */; };
+		9C98924128D4A6B20056C1D4 /* ConnectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C98924028D4A6B20056C1D4 /* ConnectionCollectionViewCell.swift */; };
+		9CD238D228D49857008554C4 /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD238D128D49857008554C4 /* AppLabel.swift */; };
+		9CDC689128D80FBD00FE4100 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC689028D80FBD00FE4100 /* NotificationTableViewCell.swift */; };
+		9CDC689328D817B900FE4100 /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC689228D817B900FE4100 /* JobsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,6 @@
 		9C40905428D2A0EA00CDCF74 /* LinkedinUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedinUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C40905728D2A0EA00CDCF74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C40905928D2A0EA00CDCF74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C40905B28D2A0EA00CDCF74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C40905E28D2A0EA00CDCF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C40906028D2A0EC00CDCF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C40906328D2A0EC00CDCF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C40906528D2A0EC00CDCF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +62,23 @@
 		9C40907428D2A0EC00CDCF74 /* LinkedinUICloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedinUICloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C40907828D2A0EC00CDCF74 /* LinkedinUICloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinUICloneUITests.swift; sourceTree = "<group>"; };
 		9C40907A28D2A0EC00CDCF74 /* LinkedinUICloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedinUICloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C40908B28D2A14200CDCF74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9C40908D28D2A25200CDCF74 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9C40909328D2A33000CDCF74 /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		9C40909528D2A35E00CDCF74 /* NotificiationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificiationsViewController.swift; sourceTree = "<group>"; };
+		9C40909728D2A37B00CDCF74 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		9C40909928D2A39700CDCF74 /* MyNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkViewController.swift; sourceTree = "<group>"; };
+		9C40909B28D2A3C000CDCF74 /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsView.swift; sourceTree = "<group>"; };
+		9C40909D28D2A3D900CDCF74 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		9C40909F28D2A3F400CDCF74 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		9C4090A128D2A41500CDCF74 /* MyNetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkView.swift; sourceTree = "<group>"; };
+		9C4090A328D2A4B700CDCF74 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		9C4090A928D2ADE900CDCF74 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		9C4090AB28D2B4FD00CDCF74 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		9C98924028D4A6B20056C1D4 /* ConnectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CD238D128D49857008554C4 /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
+		9CDC689028D80FBD00FE4100 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		9CDC689228D817B900FE4100 /* JobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +109,7 @@
 		9C40904B28D2A0EA00CDCF74 = {
 			isa = PBXGroup;
 			children = (
+				9C40908828D2A12900CDCF74 /* Source */,
 				9C40905628D2A0EA00CDCF74 /* LinkedinUIClone */,
 				9C40906D28D2A0EC00CDCF74 /* LinkedinUICloneTests */,
 				9C40907728D2A0EC00CDCF74 /* LinkedinUICloneUITests */,
@@ -99,12 +130,9 @@
 		9C40905628D2A0EA00CDCF74 /* LinkedinUIClone */ = {
 			isa = PBXGroup;
 			children = (
+				9C40908728D2A10500CDCF74 /* Resources */,
 				9C40905728D2A0EA00CDCF74 /* AppDelegate.swift */,
 				9C40905928D2A0EA00CDCF74 /* SceneDelegate.swift */,
-				9C40905B28D2A0EA00CDCF74 /* ViewController.swift */,
-				9C40905D28D2A0EA00CDCF74 /* Main.storyboard */,
-				9C40906028D2A0EC00CDCF74 /* Assets.xcassets */,
-				9C40906228D2A0EC00CDCF74 /* LaunchScreen.storyboard */,
 				9C40906528D2A0EC00CDCF74 /* Info.plist */,
 			);
 			path = LinkedinUIClone;
@@ -125,6 +153,103 @@
 				9C40907A28D2A0EC00CDCF74 /* LinkedinUICloneUITestsLaunchTests.swift */,
 			);
 			path = LinkedinUICloneUITests;
+			sourceTree = "<group>";
+		};
+		9C40908728D2A10500CDCF74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C40906228D2A0EC00CDCF74 /* LaunchScreen.storyboard */,
+				9C40906028D2A0EC00CDCF74 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C40908828D2A12900CDCF74 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9C4090A528D2A73D00CDCF74 /* Components */,
+				9C40908928D2A12E00CDCF74 /* ViewControllers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9C40908928D2A12E00CDCF74 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C40909228D2A31C00CDCF74 /* Jobs */,
+				9C40909128D2A31100CDCF74 /* Notifications */,
+				9C40909028D2A30700CDCF74 /* Post */,
+				9C40908F28D2A2F900CDCF74 /* MyNetwork */,
+				9C40908A28D2A13500CDCF74 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9C40908A28D2A13500CDCF74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9C40908B28D2A14200CDCF74 /* HomeViewController.swift */,
+				9C40908D28D2A25200CDCF74 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9C40908F28D2A2F900CDCF74 /* MyNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				9C40909928D2A39700CDCF74 /* MyNetworkViewController.swift */,
+				9C4090A128D2A41500CDCF74 /* MyNetworkView.swift */,
+			);
+			path = MyNetwork;
+			sourceTree = "<group>";
+		};
+		9C40909028D2A30700CDCF74 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				9C40909728D2A37B00CDCF74 /* PostViewController.swift */,
+				9C40909F28D2A3F400CDCF74 /* PostView.swift */,
+			);
+			path = Post;
+			sourceTree = "<group>";
+		};
+		9C40909128D2A31100CDCF74 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				9C40909528D2A35E00CDCF74 /* NotificiationsViewController.swift */,
+				9C40909D28D2A3D900CDCF74 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		9C40909228D2A31C00CDCF74 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				9C40909328D2A33000CDCF74 /* JobsViewController.swift */,
+				9C40909B28D2A3C000CDCF74 /* JobsView.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		9C4090A528D2A73D00CDCF74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9C4090A628D2A74400CDCF74 /* Root */,
+				9C4090AB28D2B4FD00CDCF74 /* FeedTableViewCell.swift */,
+				9CD238D128D49857008554C4 /* AppLabel.swift */,
+				9C98924028D4A6B20056C1D4 /* ConnectionCollectionViewCell.swift */,
+				9CDC689028D80FBD00FE4100 /* NotificationTableViewCell.swift */,
+				9CDC689228D817B900FE4100 /* JobsTableViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9C4090A628D2A74400CDCF74 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9C4090A328D2A4B700CDCF74 /* MainTabBarController.swift */,
+				9C4090A928D2ADE900CDCF74 /* NavigationBar.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +358,6 @@
 			files = (
 				9C40906428D2A0EC00CDCF74 /* LaunchScreen.storyboard in Resources */,
 				9C40906128D2A0EC00CDCF74 /* Assets.xcassets in Resources */,
-				9C40905F28D2A0EA00CDCF74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +382,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C40905C28D2A0EA00CDCF74 /* ViewController.swift in Sources */,
+				9CDC689328D817B900FE4100 /* JobsTableViewCell.swift in Sources */,
+				9CDC689128D80FBD00FE4100 /* NotificationTableViewCell.swift in Sources */,
+				9C40909428D2A33000CDCF74 /* JobsViewController.swift in Sources */,
+				9C98924128D4A6B20056C1D4 /* ConnectionCollectionViewCell.swift in Sources */,
+				9C40909E28D2A3D900CDCF74 /* NotificationsView.swift in Sources */,
 				9C40905828D2A0EA00CDCF74 /* AppDelegate.swift in Sources */,
+				9C40909828D2A37B00CDCF74 /* PostViewController.swift in Sources */,
+				9C4090AC28D2B4FD00CDCF74 /* FeedTableViewCell.swift in Sources */,
+				9C40908E28D2A25200CDCF74 /* HomeView.swift in Sources */,
 				9C40905A28D2A0EA00CDCF74 /* SceneDelegate.swift in Sources */,
+				9C4090A228D2A41500CDCF74 /* MyNetworkView.swift in Sources */,
+				9C4090A428D2A4B700CDCF74 /* MainTabBarController.swift in Sources */,
+				9C40908C28D2A14200CDCF74 /* HomeViewController.swift in Sources */,
+				9CD238D228D49857008554C4 /* AppLabel.swift in Sources */,
+				9C40909628D2A35E00CDCF74 /* NotificiationsViewController.swift in Sources */,
+				9C40909A28D2A39700CDCF74 /* MyNetworkViewController.swift in Sources */,
+				9C4090AA28D2ADE900CDCF74 /* NavigationBar.swift in Sources */,
+				9C40909C28D2A3C000CDCF74 /* JobsView.swift in Sources */,
+				9C4090A028D2A3F400CDCF74 /* PostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C40905D28D2A0EA00CDCF74 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C40905E28D2A0EA00CDCF74 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C40906228D2A0EC00CDCF74 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +573,6 @@
 				INFOPLIST_FILE = LinkedinUIClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +599,6 @@
 				INFOPLIST_FILE = LinkedinUIClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
